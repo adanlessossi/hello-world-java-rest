@@ -10,6 +10,6 @@ public class HelloWorldJavaRestController {
 
     @GetMapping(path = "/hello")
     public String helloWorld() {
-        return "{\"message\":\"Hello World Java v1\"}";
+        return "{\"message\":\"Hello World Java v2\"}";
     }
 }

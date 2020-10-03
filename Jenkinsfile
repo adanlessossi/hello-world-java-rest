@@ -1,8 +1,17 @@
 node {
+	stage('Checkout') {
+		echo "Checkout"
+	}
 	stage('Build') {
 		echo "Build"
 	}
-	stage('Test') {
-		echo "Test"
-	}
+	stage('Integration Test') {
+        echo "Integration Test"
+    }
+    stage('Staging') {
+        echo "Staging"
+    }
+    stage('Production') {
+        echo "production"
+    }
 }
