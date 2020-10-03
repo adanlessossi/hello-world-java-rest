@@ -1,11 +1,11 @@
 pipeline {
     agent any
     //agent { docker { image '3.6.3'}}
-    environment {
+    // environment {
         // mavenHome 'jenkins-maven'
         // dockerHome 'jenkins-docker'
         //PATH '$dockerHome/bin:$mavenHome/bin:$PATH'
-    }
+    // }
     stages {
         stage('Checkout') {
             steps {
