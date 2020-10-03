@@ -40,5 +40,8 @@ pipeline {
         failure {
             echo "Run on Failure"
         }
+        error {
+            echo "Run on Error"
+        }
     }
 }
